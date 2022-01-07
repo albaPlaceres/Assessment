@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alba Placeres">
+    <meta name="description"
+        content="This page shows a contact form in which people can write any message they want. This is made so that people are able to ask questions or inform about problems. They have to add their names, email and message if they want to contact the company. This fields are mandatory.">
+    <meta name="keywords" content="travel, vacations, holidays, summer, trip">
+    <title>Just Travel</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" id="logo" alt="logo">
+        <h1>Just Travel</h1>
+        <h2><em>So many places, so little time...</em></h2>
+    </header>
+
+    <nav id="hamburgerMenu">
+        <input type="checkbox">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+            <li class="index"><a href="index.html">Home</a></li>
+            <li class="bestDestinations"><a href="bestdestinations.html">Best Destinations</a></li>
+            <li class="tickets"><a href="tickets.html">Tickets</a></li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="container">
+        <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..." required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email..." required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something..." required></textarea>
+                <input type="submit" id="submit-button" value="Submit">
+            </fieldset>
+        </form>
+
+        <section class="figures">
+            <figure id="figure1">
+                <a href="https://www.tui.nl/reizen/spanje/gran-canaria/?clearmodel=1"><img src="img/grancanaria.jpg"
+                        alt="gran-canaria"></a>
+                <figcaption>
+                    <p>&copy; Himarerme</p>
+                </figcaption>
+            </figure>
+
+            <figure id="figure2">
+                <a href="https://www.tui.nl/lh-hotel-sirio-venice-509648153/?clearmodel=1"><img src="img/venice.jpg"
+                        alt="venice"></a>
+                <figcaption>
+                    <p>&copy; Liz Humphreys</p>
+                </figcaption>
+            </figure>
+
+            <figure id="figure3">
+                <a href="https://www.tui.nl/reizen/mexico/?clearmodel=1"><img src="img/mexicocity.jpg"
+                        alt="mexico-city"></a>
+                <figcaption>
+                    <p>&copy; Xavier Contreras Castillo</p>
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; Alba Placeres Jimenez</p>
+    </footer>
+
+    <section class="cookieStatement">
+        <p>Cookie Statement</p>
+    </section>
+</body>
+
+</html>
