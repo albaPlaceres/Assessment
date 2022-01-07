@@ -1,0 +1,4 @@
+Student name: Alba Placeres Jimenez
+Student number: 684598
+Student class: IT 1C
+GitHub repository: https://github.com/albaPlaceres/Assessment.git
